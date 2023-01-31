@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{margin: 0;
+  padding: 0;
+  font-family: 'kanit';
+  box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #ccc;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.apresentacao{color:black;
+    background-color: #ccc;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction:row;
+    display:flex;
+}
+
+.servicos ul{
+    display: flex;
+    
+}
+
+.servicos li{
+    list-style: none; 
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.servicos li a{
+    text-decoration: none;
+    display: flex;
+    color:  black;
+}
+
+.servicos li a:hover{ 
+    color: white;
+    border-bottom: 2px solid blue; 
+}
+
+/* .servicos li{
+    list-style: none; 
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.servicos li a{
+    text-decoration: none;
+    display: flex;
+    color:  black;
+}
+
+.servicos li a:hover{ 
+    color: white;
+    border-bottom: 2px solid blue; 
+} */
+
+.pai{
+    font-size: 30px;
+    padding-right: 20px;
+    font-weight: bold;
+} 
+
+footer .cabecalho2{
+    display: flex;
+    background-color: #ccc;
+    color: #101026;
+    padding-left: 100px;
+    margin-top: 30px;
+    
+}
+
+footer .cabecalho2{
+    display: flex;
+    background: #ccc;
+    color: #101026;
+    padding-left: 80px;
+    margin-top: 30px;
+    
+}
+
+footer .cabecalho2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .cabecalho2 ul > p{
+    margin-bottom: 20px;
+    
+    
+}
+
+footer .cabecalho2 li{
+    margin: 10px 0;
+}
+footer .cabecalho2 a{
+    color: #101026;
+}
+
+footer .cabecalho2 ul{
+    width: 25%;   
+    margin-top: 30px;
+}
+
+footer .cabecalho2 h3{
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-size: 600;
+}
+
+footer .cabecalho2 li a{
+    text-decoration: none;
+}
+
+footer .cabecalho2 li {
+    list-style: none;
+}
+
+.sobre-adote{
+    margin-right: 100px;
+}
+
+body{
+    background: #101026;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 
+    0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-left: 450px;
+}
+
+section h2{
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+   
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;    
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+.bu{
+    padding: 8px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 135px;
+}
+
+.bu:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+/* Pagina do Obrigado */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #101026;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.LilDog{
+    margin-bottom: 30px
+}
+
+.btn{
+    padding: 15px 55px;
+    /* margin-left: 85px; */
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    border-radius: 16px;
+}

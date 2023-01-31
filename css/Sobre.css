@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body{
+    background: #101026;
+}
+
+*{margin: 0;
+  padding: 0;
+  font-family: 'kanit';
+  box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #ccc;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.apresentacao{color:black;
+    background-color: #ccc;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction:row;
+    display:flex;
+}
+
+.servicos ul{
+    display: flex;
+    
+}
+
+.servicos li{
+    list-style: none; 
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.servicos li a{
+    text-decoration: none;
+    display: flex;
+    color:  black;
+}
+
+.servicos li a:hover{ 
+    color: white;
+    border-bottom: 2px solid blue; 
+}
+
+.pai{
+    font-size: 30px;
+    padding-right: 20px;
+    font-weight: bold;
+} 
+
+.cabecalho2{
+    display: flex;
+    flex-direction: column;
+    background: #ccc;
+    align-items: center;
+    padding:5%;
+    margin-top:40px;
+    color: var(--cortitulo);
+
+
+}
+
+.cabecalho2 h3{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.frase{
+    box-sizing: border-box;
+    background-color: #1d1d2e;
+    color: white;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-align: center;
+}
+
+.frase img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 400px;
+}

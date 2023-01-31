@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body{
+    background: #101026;
+    height: 100vh;
+    width: 98.8vw;
+    /* background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%); */
+}
+*{margin: 0;
+  padding: 0;
+  font-family: 'kanit';
+  box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #ccc;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho img{
+    max-width: 70px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.apresentacao{color:black;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction:row;
+    display:flex;
+}
+
+.motivador{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.servicos ul{
+    display: flex;
+    
+}
+
+.servicos li{
+    list-style: none; 
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.servicos li a{
+    text-decoration: none;
+    display: flex;
+    color:  black;
+}
+
+.servicos li a:hover{ 
+    color: white;
+    border-bottom: 2px solid blue; 
+}
+
+.pai{
+    font-size: 30px;
+    padding-right: 20px;
+    font-weight: bold;
+} 
+
+footer .cabecalho2{
+    display: flex;
+    background: #ccc;
+    color: #101026;
+    padding-left: 80px;
+    margin-top: 30px;
+    
+}
+
+footer .cabecalho2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .cabecalho2 ul > p{
+    margin-bottom: 20px;
+    
+    
+}
+
+footer .cabecalho2 li{
+    margin: 10px 0;
+}
+footer .cabecalho2 a{
+    color: #101026;
+}
+
+footer .cabecalho2 ul{
+    width: 25%;   
+    margin-top: 30px;
+}
+
+footer .cabecalho2 h3{
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-size: 600;
+}
+
+footer .cabecalho2 li a{
+    text-decoration: none;
+}
+
+footer .cabecalho2 li {
+    list-style: none;
+}
+
+.sobre-adote{
+    margin-right: 100px;
+}
+
+.content{
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navigation{
+    position: absolute;
+    margin: auto;
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid black;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 490px;
+    translate: 360%;
+    
+}
+
+.bar:hover{
+    background-color: red;
+}
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+.texto{
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.map{margin: 150px 10px 10px 10px;}
+
+/* body{background-image: url(https://super.abril.com.br/wp-content/uploads/2018/05/filhotes-de-cachorro-alcanc3a7am-o-c3a1pice-de-fofura-com-8-semanas1.png);
+background-size: cover;} */
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* card */
+.card{
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    transition: 0.3s;
+}
+
+/* card-header */
+.card-header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img{
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+/* card body */
+.card-body{
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-local{
+    font-size: 16px;
+    margin: 10px 0;   
+}
+
+.card-titulo{
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.card-texto{
+    font-size: 13px;
+    width: 250px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+/* card footer*/
+
+.card-footer{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #000;
+}
+
+.card-footer a{
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+
+/* cores card */
+.card-1 .card-footer{
+    background-color: aqua;
+}
+
+.card-1 .card-local{
+    color: aqua;
+}
+
+.card-2 .card-footer{
+    background-color:black;
+}
+
+.card-2 .card-local{
+    color: black;
+}
+
+.card-3 .card-footer{
+    background-color: red
+}
+
+.card-3 .card-local{
+    color: red;
+}
+
+/* animação */
+
+.card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+
+}
